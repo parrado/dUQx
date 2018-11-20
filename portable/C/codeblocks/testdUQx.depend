@@ -1,0 +1,657 @@
+# depslib dependency file v1.0
+1241059608 source:/media/Datos/docencia/rtsd/dUQx1.2/os/linux/gcc/src/dUQx.c
+	<stdint.h>
+	<stdio.h>
+	<usb.h>
+	"opendevice.h"
+	"requests.h"
+	"usbconfig.h"
+
+1241886308 .h"
+
+1227720296 /media/Datos/docencia/rtsd/dUQx1.2/os/linux/gcc/src/opendevice.h
+	<usb.h>
+	<stdio.h>
+
+1495034797 
+
+1241059532 /media/Datos/docencia/rtsd/dUQx1.2/os/linux/gcc/src/requests.h
+
+1232567737 /media/Datos/docencia/rtsd/dUQx1.2/os/linux/gcc/src/usbconfig.h
+
+1238870767 source:/media/Datos/docencia/rtsd/dUQx1.2/os/linux/gcc/src/opendevice.c
+	<stdio.h>
+	"opendevice.h"
+
+1238870767 e.h"
+
+1241060416 source:/media/Datos/docencia/rtsd/dUQx1.2/os/linux/gcc/test/testduqx.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<time.h>
+	<pthread.h>
+
+1495036579 >
+
+1241059515 /media/Datos/docencia/rtsd/dUQx1.2/os/linux/gcc/src/dUQx.h
+	<stdint.h>
+
+1239065358 source:/media/Datos/docencia/rtsd/dUQx1.1/os/linux/gcc/src/dUQx.c
+	<stdint.h>
+	<stdio.h>
+	<usb.h>
+	"opendevice.h"
+	"requests.h"
+	"usbconfig.h"
+
+1227720296 /media/Datos/docencia/rtsd/dUQx1.1/os/linux/gcc/src/opendevice.h
+	<usb.h>
+	<stdio.h>
+
+1232567050 /media/Datos/docencia/rtsd/dUQx1.1/os/linux/gcc/src/requests.h
+
+1232567737 /media/Datos/docencia/rtsd/dUQx1.1/os/linux/gcc/src/usbconfig.h
+
+1238870767 source:/media/Datos/docencia/rtsd/dUQx1.1/os/linux/gcc/src/opendevice.c
+	<stdio.h>
+	"opendevice.h"
+
+1239258341 source:/media/Datos/docencia/rtsd/dUQx1.1/os/linux/gcc/test/testduqx.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<time.h>
+	<pthread.h>
+
+1238818919 /media/Datos/docencia/rtsd/dUQx1.1/os/linux/gcc/src/dUQx.h
+	<stdint.h>
+
+1241884037 source:/media/Datos/docencia/rtsd/dUQx1.2/os/linux/c/src/dUQx.c
+	<stdint.h>
+	<stdio.h>
+	<usb.h>
+	"opendevice.h"
+	"requests.h"
+	"usbconfig.h"
+
+1227720296 /media/Datos/docencia/rtsd/dUQx1.2/os/linux/c/src/opendevice.h
+	<usb.h>
+	<stdio.h>
+
+1241059532 /media/Datos/docencia/rtsd/dUQx1.2/os/linux/c/src/requests.h
+
+1232567737 /media/Datos/docencia/rtsd/dUQx1.2/os/linux/c/src/usbconfig.h
+
+1238870767 source:/media/Datos/docencia/rtsd/dUQx1.2/os/linux/c/src/opendevice.c
+	<stdio.h>
+	"opendevice.h"
+
+1241884106 source:/media/Datos/docencia/rtsd/dUQx1.2/os/linux/c/test/testduqx.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<time.h>
+	<pthread.h>
+
+1241059515 /media/Datos/docencia/rtsd/dUQx1.2/os/linux/c/src/dUQx.h
+	<stdint.h>
+
+1238870767 source:/home/parrado/Escritorio/dUQx1.2.1/os/linux/c/src/opendevice.c
+	<stdio.h>
+	"opendevice.h"
+
+1227720296 /home/parrado/Escritorio/dUQx1.2.1/os/linux/c/src/opendevice.h
+	<usb.h>
+	<stdio.h>
+
+1363124267 source:/home/parrado/Escritorio/dUQx1.2.1/os/linux/c/test/testduqx.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<time.h>
+	<pthread.h>
+
+1241059515 /home/parrado/Escritorio/dUQx1.2.1/os/linux/c/src/dUQx.h
+	<stdint.h>
+
+1241886308 source:/home/parrado/Escritorio/dUQx1.2.1/os/linux/c/src/dUQx.c
+	<stdint.h>
+	<stdio.h>
+	<usb.h>
+	"opendevice.h"
+	"requests.h"
+	"usbconfig.h"
+
+1241059532 /home/parrado/Escritorio/dUQx1.2.1/os/linux/c/src/requests.h
+
+1232567737 /home/parrado/Escritorio/dUQx1.2.1/os/linux/c/src/usbconfig.h
+
+1485961950 source:/home/parrado/Escritorio/duqx-2.0/os/linux/c/src/serial.c
+	<errno.h>
+	<fcntl.h>
+	<string.h>
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+	"serial.h"
+
+1485961289 source:/home/parrado/Escritorio/duqx-2.0/os/linux/c/test/testserial.c
+	"../src/serial.h"
+	<errno.h>
+	<termios.h>
+	<unistd.h>
+	<fcntl.h>
+	<time.h>
+	<stdio.h>
+
+1485963984 /home/parrado/Escritorio/duqx-2.0/os/linux/c/src/serial.h
+	<termios.h>
+	<time.h>
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+
+1485964962 source:/home/parrado/Escritorio/duqx-2.0/os/linux/c/src/dUQx.c
+	<stdint.h>
+	<stdio.h>
+	"serial.h"
+	"requests.h"
+
+1495674387 h"
+
+1485903755 /home/parrado/Escritorio/duqx-2.0/os/linux/c/src/requests.h
+
+1485964794 source:/home/parrado/Escritorio/duqx-2.0/os/linux/c/test/testduqx.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<time.h>
+	<pthread.h>
+
+1485955731 /home/parrado/Escritorio/duqx-2.0/os/linux/c/src/dUQx.h
+	<stdint.h>
+
+1485961950 source:c:\users\parrado\desktop\windows\c\src\serial.c
+	<errno.h>
+	<fcntl.h>
+	<string.h>
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+	"serial.h"
+
+1485963984 c:\users\parrado\desktop\windows\c\src\serial.h
+	<termios.h>
+	<time.h>
+	<stdio.h>
+	<unistd.h>
+	<fcntl.h>
+
+1486089174 source:c:\users\parrado\desktop\windows\c\src\duqx.c
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"RS-232/rs232.h"
+	"requests.h"
+
+1486054044 c:\users\parrado\desktop\windows\c\src\rs-232\rs232.h
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<limits.h>
+	<sys/file.h>
+	<errno.h>
+	<sys/ioctl.h>
+	<linux/serial.h>
+	<windows.h>
+
+1486072793 c:\users\parrado\desktop\windows\c\src\requests.h
+
+1486088174 source:c:\users\parrado\desktop\windows\c\test\testduqx.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<time.h>
+	<pthread.h>
+
+1486087906 c:\users\parrado\desktop\windows\c\src\duqx.h
+	<stdint.h>
+
+1486085423 source:c:\users\parrado\desktop\windows\c\src\rs-232\rs232.c
+	"rs232.h"
+
+1486085789 source:/home/parrado/Escritorio/duqx-2.0/os/linux2/c/src/dUQx.c
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"RS-232/rs232.h"
+	"requests.h"
+
+1486054044 /home/parrado/Escritorio/duqx-2.0/os/linux2/c/src/RS-232/rs232.h
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<limits.h>
+	<sys/file.h>
+	<errno.h>
+	<sys/ioctl.h>
+	<linux/serial.h>
+	<windows.h>
+
+1486072793 /home/parrado/Escritorio/duqx-2.0/os/linux2/c/src/requests.h
+
+1486085423 source:/home/parrado/Escritorio/duqx-2.0/os/linux2/c/src/RS-232/rs232.c
+	"rs232.h"
+
+1486086149 source:/home/parrado/Escritorio/duqx-2.0/os/linux2/c/test/testduqx.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<time.h>
+	<pthread.h>
+
+1486075678 /home/parrado/Escritorio/duqx-2.0/os/linux2/c/src/dUQx.h
+	<stdint.h>
+
+1486090757 source:c:\users\parrado\desktop\windows\c\test\testduqx1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+
+1486089174 source:/home/parrado/Escritorio/duqx-2.0/os/portable/c/src/dUQx.c
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"RS-232/rs232.h"
+	"requests.h"
+
+1486151818 /home/parrado/Escritorio/duqx-2.0/os/portable/c/src/RS-232/rs232.h
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<limits.h>
+	<sys/file.h>
+	<errno.h>
+	<sys/ioctl.h>
+	<linux/serial.h>
+	<windows.h>
+
+1486072793 /home/parrado/Escritorio/duqx-2.0/os/portable/c/src/requests.h
+
+1486085423 source:/home/parrado/Escritorio/duqx-2.0/os/portable/c/src/RS-232/rs232.c
+	"rs232.h"
+
+1486151895 source:/home/parrado/Escritorio/duqx-2.0/os/portable/c/test/testduqx1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+
+1486087906 /home/parrado/Escritorio/duqx-2.0/os/portable/c/src/dUQx.h
+	<stdint.h>
+
+1486089174 source:c:\users\parrado\desktop\portable\c\src\duqx.c
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"RS-232/rs232.h"
+	"requests.h"
+
+1486151818 c:\users\parrado\desktop\portable\c\src\rs-232\rs232.h
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<limits.h>
+	<sys/file.h>
+	<errno.h>
+	<sys/ioctl.h>
+	<linux/serial.h>
+	<windows.h>
+
+1486072793 c:\users\parrado\desktop\portable\c\src\requests.h
+
+1486151895 source:c:\users\parrado\desktop\portable\c\test\testduqx1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+
+1486087906 c:\users\parrado\desktop\portable\c\src\duqx.h
+	<stdint.h>
+
+1486085423 source:c:\users\parrado\desktop\portable\c\src\rs-232\rs232.c
+	"rs232.h"
+
+1486089174 source:/home/parrado/Escritorio/duqx-2.0/dUQx-2.0/portable/c/src/dUQx.c
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"RS-232/rs232.h"
+	"requests.h"
+
+1486151818 /home/parrado/Escritorio/duqx-2.0/dUQx-2.0/portable/c/src/RS-232/rs232.h
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<limits.h>
+	<sys/file.h>
+	<errno.h>
+	<sys/ioctl.h>
+	<linux/serial.h>
+	<windows.h>
+
+1486072794 /home/parrado/Escritorio/duqx-2.0/dUQx-2.0/portable/c/src/requests.h
+
+1486085424 source:/home/parrado/Escritorio/duqx-2.0/dUQx-2.0/portable/c/src/RS-232/rs232.c
+	"rs232.h"
+
+1486085424 source:/home/parrado/Documentos/docencia-uq/rtsd/duqx-2.1/dUQx-2.1/portable/c/src/RS-232/rs232.c
+	"rs232.h"
+	"rs232.h"
+
+1486151818 /home/parrado/Documentos/docencia-uq/rtsd/duqx-2.1/dUQx-2.1/portable/c/src/RS-232/rs232.h
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<limits.h>
+	<sys/file.h>
+	<errno.h>
+	<sys/ioctl.h>
+	<linux/serial.h>
+	<windows.h>
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<limits.h>
+	<sys/file.h>
+	<errno.h>
+	<sys/ioctl.h>
+	<linux/serial.h>
+	<windows.h>
+
+1495037636 source:/home/parrado/Documentos/docencia-uq/rtsd/duqx-2.1/dUQx-2.1/portable/c/src/dUQx.c
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"RS-232/rs232.h"
+	"requests.h"
+	<signal.h>
+	<pthread.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"RS-232/rs232.h"
+	"dUQx.h"
+	"requests.h"
+
+1495034844 /home/parrado/Documentos/docencia-uq/rtsd/duqx-2.1/dUQx-2.1/portable/c/src/requests.h
+
+1492563792 source:/home/parrado/Documentos/docencia-uq/rtsd/duqx-2.1/dUQx-2.1/portable/c/test/testduqx1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+
+1495034853 /home/parrado/Documentos/docencia-uq/rtsd/duqx-2.1/dUQx-2.1/portable/c/src/dUQx.h
+	<stdint.h>
+	<stdint.h>
+
+1492558422 source:c:\users\parrado\desktop\duqx-2.1\portable\c\src\duqx.c
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"RS-232/rs232.h"
+	"requests.h"
+
+1486151818 c:\users\parrado\desktop\duqx-2.1\portable\c\src\rs-232\rs232.h
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<limits.h>
+	<sys/file.h>
+	<errno.h>
+	<sys/ioctl.h>
+	<linux/serial.h>
+	<windows.h>
+
+1486072794 c:\users\parrado\desktop\duqx-2.1\portable\c\src\requests.h
+
+1486085424 source:c:\users\parrado\desktop\duqx-2.1\portable\c\src\rs-232\rs232.c
+	"rs232.h"
+
+1492563642 source:c:\users\parrado\desktop\duqx-2.1\portable\c\test\testduqx1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+
+1492558450 c:\users\parrado\desktop\duqx-2.1\portable\c\src\duqx.h
+	<stdint.h>
+
+1493827491 source:/home/parrado/Documentos/docencia-uq/rtsd/duqx-2.1/dUQx-2.1/portable/c/test/testduqx2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<time.h>
+	<pthread.h>
+
+1495036579 source:/home/parrado/Documentos/docencia-uq/rtsd/duqx-2.1/dUQx-2.1/portable/c/test/testduqx3.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<time.h>
+	<pthread.h>
+
+1495674387 source:c:\users\parrado\desktop\duqx-2.1\duqx-2.1\portable\c\src\duqx.c
+	<signal.h>
+	<pthread.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"RS-232/rs232.h"
+	"dUQx.h"
+	"requests.h"
+
+1486151818 c:\users\parrado\desktop\duqx-2.1\duqx-2.1\portable\c\src\rs-232\rs232.h
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<limits.h>
+	<sys/file.h>
+	<errno.h>
+	<sys/ioctl.h>
+	<linux/serial.h>
+	<windows.h>
+
+1495034797 c:\users\parrado\desktop\duqx-2.1\duqx-2.1\portable\c\src\duqx.h
+	<stdint.h>
+
+1495034787 c:\users\parrado\desktop\duqx-2.1\duqx-2.1\portable\c\src\requests.h
+
+1486085424 source:c:\users\parrado\desktop\duqx-2.1\duqx-2.1\portable\c\src\rs-232\rs232.c
+	"rs232.h"
+
+1495036579 source:c:\users\parrado\desktop\duqx-2.1\duqx-2.1\portable\c\test\testduqx3.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<time.h>
+	<pthread.h>
+
+1495677102 source:c:\users\parrado\desktop\duqx-2.1\duqx-2.1\portable\c\test\testduqx1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+
+1495674387 source:/home/parrado/Documentos/docencia-uq/rtsd/dUQx-2.1/portable/c/src/dUQx.c
+	<signal.h>
+	<pthread.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"RS-232/rs232.h"
+	"dUQx.h"
+	"requests.h"
+
+1486151818 /home/parrado/Documentos/docencia-uq/rtsd/dUQx-2.1/portable/c/src/RS-232/rs232.h
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<limits.h>
+	<sys/file.h>
+	<errno.h>
+	<sys/ioctl.h>
+	<linux/serial.h>
+	<windows.h>
+
+1495034797 /home/parrado/Documentos/docencia-uq/rtsd/dUQx-2.1/portable/c/src/dUQx.h
+	<stdint.h>
+
+1495034787 /home/parrado/Documentos/docencia-uq/rtsd/dUQx-2.1/portable/c/src/requests.h
+
+1486085424 source:/home/parrado/Documentos/docencia-uq/rtsd/dUQx-2.1/portable/c/src/RS-232/rs232.c
+	"rs232.h"
+
+1538935816 source:/home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/c/src/dUQx.c
+	<signal.h>
+	<pthread.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"RS-232/rs232.h"
+	"dUQx.h"
+	"requests.h"
+
+1486151818 /home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/c/src/RS-232/rs232.h
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<limits.h>
+	<sys/file.h>
+	<errno.h>
+	<sys/ioctl.h>
+	<linux/serial.h>
+	<windows.h>
+
+1535059987 /home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/c/src/dUQx.h
+	<stdint.h>
+
+1535060010 /home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/c/src/requests.h
+
+1486085424 source:/home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/c/src/RS-232/rs232.c
+	"rs232.h"
+
+1495683850 source:/home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/c/test/testduqx1.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+
+1493827491 source:/home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/c/test/testduqx2.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<time.h>
+	<pthread.h>
+
+1538937572 source:/home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/c/test/testduqx3.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<time.h>
+	<pthread.h>
+

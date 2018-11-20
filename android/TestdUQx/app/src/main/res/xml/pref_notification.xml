@@ -1,0 +1,59 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.example.parrado.NumberPickerPreference
+        android:key="logging_period"
+        android:defaultValue="15"
+        android:title="Logging period" />
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="dporte"
+        android:title="@string/pref_title_new_message_notifications" />
+
+
+    <!-- NOTE: This preference will be enabled only when the checkbox above is checked. -->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="a0e"
+        android:title="Log Analog Channel 0"/>
+
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="a1e"
+        android:title="Log Analog Channel 1"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="a2e"
+        android:title="Log Analog Channel 2"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="a3e"
+        android:title="Log Analog Channel 3"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="a4e"
+        android:title="Log Analog Channel 4"/>
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="a5e"
+        android:title="Log Analog Channel 5"/>
+
+
+
+
+
+
+
+
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,74 @@
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+#include "adc.h"
+
+
+
+
+
+
+void ADCRefSet(uint8_t ref)
+{
+	ADMUX = (ADMUX & ADC_REF_MASK) | (~ADC_REF_MASK & ref);
+}
+
+void ADCInit()
+{
+
+ADCRefSet(ADC_REF_AVCC);
+
+ADCSRA &= (~(1 << ADATE)) & (~(1 << ADIE));
+
+	
+
+  ADCPrescalerSet(ADC_PRESCLR_128); // ADC clock = ~130 KHz (with 16.5 MHz clock)
+
+DIDR0=0x3f;
+
+ADCSRB = 0;
+
+ADCSRA |= (1 << ADEN);
+
+
+}
+
+void ADCPrescalerSet(uint8_t pres)
+{
+	ADCSRA = (ADCSRA & ADC_PRESCLR_MASK) | (~ADC_PRESCLR_MASK & pres);
+}
+
+void ADCEnable()
+{
+	ADCSRA |= (1 << ADEN);
+}
+
+void ADCDisable()
+{
+	ADCSRA &= ~(1 << ADEN);
+}
+
+uint16_t ADCReadSingle(uint8_t ch)
+{
+
+uint8_t ADMUX1;
+
+ADMUX1=ADMUX;
+
+
+ADMUX = (ADMUX & 0xF0) | ((ch & 0x0f) );
+
+if((ADMUX1&0x0f)!=(ch&0x0f))
+	_delay_us(150);
+
+ADCSRA |= (1 << ADSC);
+
+while(ADCSRA & (1<<ADSC));
+
+
+return ADC;
+}
+
+
+
+

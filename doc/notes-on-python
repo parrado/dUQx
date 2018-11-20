@@ -1,0 +1,7 @@
+Linux
+sudo apt-get install python-serial
+sudo apt-get install python-matplotlib
+
+Windows
+python -m pip install pyserial
+python -m pip install matplotlib

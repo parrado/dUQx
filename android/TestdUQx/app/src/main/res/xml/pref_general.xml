@@ -1,0 +1,43 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+
+        android:defaultValue="620123"
+        android:inputType="numberDecimal"
+        android:digits="0123456789"
+        android:key="channel_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Channel ID" />
+
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textCapCharacters"
+        android:defaultValue="@string/default_write_key"
+        android:key="writekey_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Write Key" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textCapCharacters"
+        android:defaultValue="@string/default_read_key"
+        android:key="readkey_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Read Key" />
+
+
+
+
+
+</PreferenceScreen>
