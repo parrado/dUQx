@@ -30,15 +30,15 @@ import java.io.OutputStream;
 public class dUQx  {
 
     //Listado de peticiones soportadas por dUQX
-    public static final byte DUQX_ADC_READ_SINGLE = 1;
-    public static final byte DUQX_ADC_READ_BUFFER = 2;
-    public static final byte DUQX_ADC_PRESCALER_SET = 3;
-    public static final byte DUQX_ADC_ENABLED_SET = 4;
-    public static final byte DUQX_ADC_RESOLUTION_SET = 5;
-    public static final byte DUQX_DAC_WRITE_SINGLE = 6;
-    public static final byte DUQX_DIGITAL_CONFIGURE = 7;
-    public static final byte DUQX_DIGITAL_WRITE = 8;
-    public static final byte DUQX_DIGITAL_READ = 9;
+    private static final byte DUQX_ADC_READ_SINGLE = 1;
+    private static final byte DUQX_ADC_READ_BUFFER = 2;
+    private static final byte DUQX_ADC_PRESCALER_SET = 3;
+    private static final byte DUQX_ADC_ENABLED_SET = 4;
+    private static final byte DUQX_ADC_RESOLUTION_SET = 5;
+    private static final byte DUQX_DAC_WRITE_SINGLE = 6;
+    private static final byte DUQX_DIGITAL_CONFIGURE = 7;
+    private static final byte DUQX_DIGITAL_WRITE = 8;
+    private static final byte DUQX_DIGITAL_READ = 9;
 
 
     //Miembro que almacena la petición actual

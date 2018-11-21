@@ -120,6 +120,7 @@ def end():
 ##Alexander Lopez Parrado(2018)
 def read_analog_buffer(ch,vref,n):
 
+
 	v=[];
 
 

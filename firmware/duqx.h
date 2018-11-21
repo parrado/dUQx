@@ -34,8 +34,7 @@ uint8_t dUQx_Init(void);
 
 void dUQx_End(void);
 
-/*Verifica si dUQx está conectada*/
-void dUQx_IsReady(void);
+
 
 /*Configura el puerto digital*/
 void dUQx_ConfigureDigital(uint16_t );
@@ -55,8 +54,6 @@ void dUQx_ReadAnalogSingle(uint8_t ch,double vref,double * v);
 /*Calibra el controlador, retorna el voltaje de referencia estimado*/
 void dUQx_CalibrateAnalog(double *);
 
-/*Retorna la cantidad de muestras listas en el buffer*/
-void dUQx_ADCBufferSize(uint8_t *size);
 
 /*Selecciona entre la resolución de 10 bits (r=1) y 8 bits (r=0)*/
 /*Por defecto dUQx opera a una resolución de 10 bits*/
@@ -74,8 +71,5 @@ void dUQx_ADCSampleRateSet(uint8_t sr);
 
 /*Habilita (e=1) o inhabilita (e=0) el ADC*/
 void dUQx_ADCEnabledSet(uint8_t e);
-
-/*Se borra el FIFO de captura*/
-void dUQx_ADCBufferClear(void);
 
 #endif /*DUQX_H_*/

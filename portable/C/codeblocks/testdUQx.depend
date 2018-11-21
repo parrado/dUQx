@@ -655,3 +655,47 @@
 	<time.h>
 	<pthread.h>
 
+1538935816 source:/home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/C/src/dUQx.c
+	<signal.h>
+	<pthread.h>
+	<stdint.h>
+	<stdio.h>
+	<stdlib.h>
+	"RS-232/rs232.h"
+	"dUQx.h"
+	"requests.h"
+
+1486151818 /home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/C/src/RS-232/rs232.h
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<limits.h>
+	<sys/file.h>
+	<errno.h>
+	<sys/ioctl.h>
+	<linux/serial.h>
+	<windows.h>
+
+1542747278 /home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/C/src/dUQx.h
+	<stdint.h>
+
+1535060010 /home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/C/src/requests.h
+
+1486085424 source:/home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/C/src/RS-232/rs232.c
+	"rs232.h"
+
+1542121587 source:/home/parrado/Documents/docencia-uq/rtsd/dUQx-2.1/portable/C/test/testduqx3.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+	"dUQx.h"
+	<time.h>
+	<pthread.h>
+	<Windows.h>
+
